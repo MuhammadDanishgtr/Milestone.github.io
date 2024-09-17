@@ -1,0 +1,78 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    
+}
+
+.header-section{
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    justify-content: flex-end;
+
+    
+}
+.name{
+    padding-right: 700px;
+    font-size:50px;
+    text-decoration: underline solid 2px;
+}
+
+.resume-section{
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+.left-section {
+    flex: 0.30;
+    border-right: 2px solid black;
+    padding-right: 15px;
+}
+
+.right-section {
+    flex: 1;
+    margin-left: 20px;
+}
+
+h2{
+    border-bottom: 2px solid black;
+}
+
+.digree{
+    display: flex;
+    gap: 100px;
+    margin-left: 15px;
+    
+}
+
+.sub-digree{
+    line-height: 0;
+}
+
+.hobby{
+    display: flex;
+    gap: 10px;
+}
+
+
+.contact{
+    display: flex;
+    gap:7px;
+}
+
+img{
+    padding-top: 15px;
+}
+
+.expertise{
+    text-align:justify
+}
+
+#skillbutton{
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 5px;
+    font-weight: 900;
+}
